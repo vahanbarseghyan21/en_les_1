@@ -228,8 +228,8 @@ var tableData = [
 
 var state = {
     'querySet': tableData,
-    'rows': 15,
-    'window': 5,
+    'rows': 13,
+    'window': 13,
 }
 
 buildTable()
