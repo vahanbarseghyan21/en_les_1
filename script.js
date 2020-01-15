@@ -1,222 +1,41 @@
 var tableData = [
-    {
-        'name': 'childen',
-        'translation': 'երեխա'
-    },
-    {
-        'name': 'husband', 
-        'translation': 'անուսին'
-    },
-    {
-        'name': 'father',
-        'translation': 'հայր'
-    },
-    {
-        'name': 'mother', 
-        'translation': 'մայր'
-    },
-    {
-        'name': 'parents', 
-        'translation': 'ծնողներ'
-    },
-    {
-        'name': 'daudhter', 
-        'translation': 'աղջիկ'
-    },
-    {
-        'name': 'son', 
-        'translation': 'տղա'
-    },
-    {
-        'name': 'sister', 'translation': 'քույրիկ'},
-    {
-        'name': 'broter', 'translation': 'եղբայր'},
-    {
-        'name': 'grandfather', 'translation': 'պապիկ'},
-    {
-        'name': 'grandmother', 'translation': 'տատիկ'},
-    {
-        'name': 'grandparents', 'translation': 'պապիկ և տատիկ'},
-    {
-        'name': 'granddaughter', 'translation': 'թոռնուհի'},
-    {
-        'name': 'grandson', 'translation': 'թոռնիկ'},
-    {
-        'name': 'uncle', 'translation': 'հորեղբայր և քեռի'},
-    {
-        'name': 'aunts', 'translation': 'մորաքույր և հորաքույր'},
-    {
-        'name': 'niece', 'translation': 'զարմուհի'},
-    {
-        'name': 'nephew', 'translation': 'զարմիկ'},
-    {
-        'name': 'cousins', 'translation': 'զարմիկներ'},
-    {
-        'name': 'weather', 'translation': 'եղանակ'},
-    {
-        'name': 'andry', 'translation': 'զայրացած'},
-    {
-        'name': 'happy', 'translation': 'ուրախ'},
-    {
-        'name': 'hungry', 'translation': 'քաղցած'},
-    {
-        'name': 'sad', 'translation': 'տխուր'},
-    {
-        'name': 'strong', 'translation': 'ուժեղ'},
-    {
-        'name': 'thiruty', 'translation': 'ծարավ'},
-    {
-        'name': 'swimmer', 'translation': 'լողորդ'},
-    {
-        'name': 'height', 'translation': 'բարձրություն'},
-    {
-        'name': 'weight', 'translation': 'քաշ'},
-    {
-        'name': 'short', 'translation': 'կարճահասակ'},
-    {
-        'name': 'tall', 'translation': 'բարձրահասակ'},
-    {
-        'name': 'medium height', 'translation': 'միջին հասակ'},
-    {
-        'name': 'slim ( thin )', 'translation': 'նիհար'},
-    {
-        'name': 'overweight', 'translation': 'չափազանց գեր'},
-    {
-        'name': 'fat', 'translation': 'գեր'},
-    {
-        'name': 'good afternoon', 'translation': 'բարի օր'},
-    {
-        'name': 'good evening', 'translation': 'բարի երեկո'},
-    {
-        'name': 'goodnight', 'translation': 'բարի գիշեր'},
-    {
-        'name': 'sleep well', 'translation': 'լավ քուն'},
-    {
-        'name': 'someone', 'translation': 'ինչ որ մեկը'},
-    {
-        'name': 'quite', 'translation': 'բավականին'},
-    {
-        'name': 'sometimes', 'translation': 'երբեմն'},
-    {
-        'name': 'also', 'translation': 'նաև'},
-    {
-        'name': 'something', 'translation': 'ինչ որ մի բան'},
-    {
-        'name': 'somewhere', 'translation': 'ինչ որ տեղ'},
-    {
-        'name': 'leave', 'translation': 'հեռանալ'},
-    {
-        'name': 'bless you', 'translation': 'առողջություն'},
-    {
-        'name': 'birthday', 'translation': 'տարեդարձ'},
-    {
-        'name': 'difficult', 'translation': 'դժվար'},
-    {
-        'name': 'congratulations', 'translation': 'շնորհավորանքներ'},
-    {
-        'name': 'well done!', 'translation': 'ապրես'},
-    {
-        'name': 'special', 'translation': 'հատուկ'},
-    {
-        'name': 'usually', 'translation': 'սովորաբար'},
-    {
-        'name': 'perhaps', 'translation': 'հավանաբար'},
-    {
-        'name': 'nice to meet you', 'translation': 'ուրախ եմ ձեզ տեսնել'},
-    {
-        'name': 'how are you', 'translation': 'ինչպես եք'},
-    {
-        'name': 'i am fine', 'translation': 'ես լավ եմ'},
-    {
-        'name': 'and you', 'translation': 'իսկ դուք'},
-    {
-        'name': 'poor', 'translation': 'աղքատ'},
-    {
-        'name': 'paupers', 'translation': 'աղքատներ'},
-    {
-        'name': 'for that reason', 'translation': 'այդ պաճառով'},
-    {
-        'name': 'but', 'translation': 'բայց'},
-    {
-        'name': 'to want', 'translation': 'ցանկանալ'},
-    {
-        'name': 'had no beds', 'translation': 'անկողիներ չունեին'},
-    {
-        'name': 'Would you like', 'translation': 'կցանկանակ '},
-    {
-        'name': 'What', 'translation': 'Ինչ'},
-    {
-        'name': 'Who', 'translation': 'Ով'},
-    {
-        'name': 'How', 'translation': 'Ինչպես'},
-    {
-        'name': 'Why', 'translation': 'Ինչու'},
-    {
-        'name': 'how much', 'translation': 'inchqan arje'},
-    {
-        'name': 'toy', 'translation': 'xaxaliq'},
-    {
-        'name': 'this', 'translation': 'ays'},
-    {
-        'name': 'Where', 'translation': 'Որտեղ'},
-    {
-        'name': 'never', 'translation': 'երբեք'},
-    {
-        'name': 'did', 'translation': ' անել'},
-    {
-        'name': 'any', 'translation': 'ցանկացած'},
-    {
-        'name': 'every', 'translation': 'ամեն'},
-    {
-        'name': 'sent', 'translation': 'ուղարկել'},
-    {
-        'name': 'to beg', 'translation': 'խնդրել'},
-    {
-        'name': 'had', 'translation': 'ուներ'},
-    {
-        'name': 'to stand at the side of the road and say', 'translation': 'կանգնել սովորական պողոցում և ասել'},
-    {
-        'name': 'say', 'translation': 'ասել'},
-    {
-        'name': 'road', 'translation': 'ճանապառհ'},
-    {
-        'name': 'penny', 'translation': 'կոպեկ'},
-    {
-        'name': 'bring', 'translation': 'բերել'},
-    {
-        'name': 'evening ', 'translation': 'երեկոյան'},
-    {
-        'name': 'beat them', 'translation': 'հարվածել նրանց'},
-    {
-        'name': 'gave them no food', 'translation': 'չէր տալի նրանց հաց'},
-    {
-        'name': 'feel', 'translation': 'զգալ'},
-    {
-        'name': 'sick', 'translation': 'հիվանդ'},
-    {
-        'name': 'headache ', 'translation': 'գլխացավ'},
-    {
-        'name': 'toothache', 'translation': 'ատամի ցավ'},
-    {
-        'name': 'dentist', 'translation': 'ատամնաբույժ'},
-    {
-        'name': 'hay fever', 'translation': 'խոտի տենդ'},
-    {
-        'name': 'grass', 'translation': 'խոտ'},
-    {
-        'name': 'sneeze', 'translation': 'փռշտոց'},
-    {
-        'name': 'cancer ', 'translation': 'քաղցկեղ'},
-    {
-        'name': 'healthy ', 'translation': 'առողջ'},
-    {
-        'name': 'stressed', 'translation': 'սթրեսի մեջ'},
-    {
-        'name': 'ill', 'translation': 'հիվանդ'},
-    {
-        'name': 'heart', 'translation': 'սիրտ'},
-    {
-        'name': 'heart attack', 'translation': 'սրտի կաթված'}
+    {'name': 'ill', 'translation': 'հիվանդ'},
+    {'name': 'heart', 'translation': 'սիրտ'},
+    {'name': 'heart attack', 'translation': 'սրտի կաթված'},
+    {'name': 'healthy', 'translation': 'առողջ'},
+    {'name': 'vegetables', 'translation': 'բանջարեղեն'},
+    {'name': 'bread', 'translation': 'հաց'},
+    {'name': 'sushi', 'translation': 'սուշի'},
+    {'name': 'rice', 'translation': 'բրինձ'},
+    {'name': 'for you', 'translation': 'ձեզ համար'},
+    {'name': 'always', 'translation': 'միշտ'},
+    {'name': 'salt', 'translation': 'աղ'},
+    {'name': 'pepper', 'translation': 'բիբար, պղպեղ'},
+    {'name': 'fish', 'translation': 'ձուկ'},
+    {'name': 'sugar', 'translation': 'շաքար'},
+    {'name': 'popular', 'translation': 'հայտնի'},
+    {'name': 'carrots', 'translation': 'գազար'},
+    {'name': 'beans', 'translation': 'լոբի'},
+    {'name': 'potatoes', 'translation': 'կարտոֆիլ'},
+    {'name': 'tomatocs', 'translation': 'լոլիկ'},
+    {'name': 'peas', 'translation': 'ոլոռ'},
+    {'name': 'onions', 'translation': 'սոխ'},
+    {'name': 'garlie', 'translation': 'սխտոր'},
+    {'name': 'mushrooms', 'translation': 'սունկ'},
+    {'name': 'pear', 'translation': 'տանձ'},
+    {'name': 'grapes', 'translation': 'խաղող'},
+    {'name': 'strawberries', 'translation': 'ելակ'},
+    {'name': 'wine', 'translation': 'գինի'},
+    {'name': 'beer', 'translation': 'գարեջուր'},
+    {'name': 'mineral water', 'translation': 'աղբյուրի ջուր'},
+    {'name': 'milk', 'translation': 'կաթ'},,
+    {'name': 'fruit juice', 'translation': 'մրքային հյութ'},
+    {'name': 'dictionary', 'translation': 'բառարան'},
+    {'name': 'umbrella', 'translation': 'անձրևանոց'},
+    {'name': 'begin', 'translation': 'սկսել'},
+    {'name': 'mean', 'translation': 'նշանակել, նկատի ունենալ'},
+    {'name': 'repet', 'translation': 'կրկնել'},
+    {'name': 'understend', 'translation': 'հասկանալ'},
 ]
 
 
