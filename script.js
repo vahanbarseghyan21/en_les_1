@@ -33,7 +33,7 @@ var tableData = [
     {'name': 'dictionary', 'translation': 'բառարան'},
     {'name': 'umbrella', 'translation': 'անձրևանոց'},
     {'name': 'begin', 'translation': 'սկսել'},
-    {'name': 'mean', 'translation': 'նշանակել, նկատի ունենալ'},
+    {'name': 'mean', 'translation': 'նշանակել, նկատի ունենալ'},,
     {'name': 'repet', 'translation': 'կրկնել'},
     {'name': 'understend', 'translation': 'հասկանալ'},
 ]
